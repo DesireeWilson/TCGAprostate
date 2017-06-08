@@ -1,0 +1,13 @@
+bcr_patient_barcode	new_tumor_event_type	new_tumor_event_dx_days_to	new_tumor_event_site	new_tumor_event_site_other	progression_after_hormone_tx	progression_after_hormone_tx_type	new_tumor_event_radiation_tx	new_tumor_event_pharmaceutical_tx
+bcr_patient_barcode	new_neoplasm_event_type	days_to_new_tumor_event_after_initial_treatment	new_neoplasm_event_occurrence_anatomic_site	new_neoplasm_occurrence_anatomic_site_text	tumor_progression_post_ht	type_of_progression_after_ht	additional_radiation_therapy	additional_pharmaceutical_therapy
+CDE_ID:2673794	CDE_ID:3119721	CDE_ID:3392464	CDE_ID:3108271	CDE_ID:3128033	CDE_ID:3158820	CDE_ID:3354944	CDE_ID:3427615	CDE_ID:3427616
+TCGA-EJ-8469	Biochemical evidence of disease	[Not Available]	[Not Available]	[Not Available]	[Not Available]	[Not Available]	NO	NO
+TCGA-EJ-8472	Biochemical evidence of disease	[Not Available]	[Not Available]	[Not Available]	[Not Available]	[Not Available]	[Not Available]	[Not Available]
+TCGA-KK-A5A1	Locoregional Recurrence	203	[Not Available]	[Not Available]	[Not Available]	[Not Available]	YES	[Not Available]
+TCGA-J4-A67N	Biochemical evidence of disease	442	[Not Available]	[Not Available]	[Not Available]	[Not Available]	[Not Available]	[Not Available]
+TCGA-G9-6339	Biochemical evidence of disease	[Not Available]	[Not Available]	[Not Available]	[Not Available]	[Not Available]	YES	NO
+TCGA-G9-6498	Biochemical evidence of disease	[Not Available]	[Not Available]	[Not Available]	[Not Available]	[Not Available]	YES	NO
+TCGA-FC-A6HD	[Not Available]	[Not Available]	[Not Available]	[Not Available]	[Unknown]	[Not Available]	[Not Available]	[Not Available]
+TCGA-M7-A724	Biochemical evidence of disease	151	[Not Available]	[Not Available]	[Not Available]	[Not Available]	YES	YES
+TCGA-J4-A83N	New Primary Tumor	433	[Not Available]	[Not Available]	[Not Available]	[Not Available]	YES	YES
+TCGA-M7-A722	Biochemical evidence of disease	559	[Not Available]	[Not Available]	[Not Available]	[Not Available]	YES	YES
