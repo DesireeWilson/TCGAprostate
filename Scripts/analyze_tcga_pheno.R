@@ -14,12 +14,16 @@ project_root <- '~/Desktop/TCGAprostate';
 #' Where to look for data and scripts, respectively
 data_dir <- 'ImportantFiles';
 script_dir <- 'Scripts';
-#' `root_files` are what needs to exist and are proof that
+#' `data_dir` and `script_dir` need to exist and are proof that
 #' this is in fact a usable `project_root` directory.
 if(length(intersect(c(data_dir,script_dir),list.files()))!=2){
     if(length(intersect(c(data_dir,script_dir),list.files('..')))==2){
         setwd('..');
     } else {
+        # this is the part that might fail, for example if 
+        # this is a Windows computer and doesn't know what
+        # "~" means, so we only do this if we can't find 
+        # the needed files any other way
         setwd(paste0(project_root));
     }
 }
