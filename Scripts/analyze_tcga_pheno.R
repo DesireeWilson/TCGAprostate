@@ -27,6 +27,13 @@ if(length(intersect(c(data_dir,script_dir),list.files()))!=2){
         setwd(paste0(project_root));
     }
 }
+#' If we managed to find our way to `project_root` from
+#' here on out, we can use hardcoded _relative_ paths
+#' (as long as we're pretty sure we won't need to rename
+#' them. If we do expect them to change a lot, we should
+#' create additional variables up front with the 
+#' path-fragments and `paste0` them together with with
+#' `data_dir` and `script_dir`
 input_file <- paste0(data_dir,'/pheno.csv');
 #' Read the data in
 phe <- read_tsv(input_file);
